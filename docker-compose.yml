@@ -10,7 +10,7 @@ services:
 
   #    environment:
   #        Default listening port, can also be changed with the -p option (not to be confused with ports: below)
-  #      - PORT=5000
+  #      - PORT=${PORT}
   #
   #        Log levels are in descending order. (TRACE is the most detailed one)
   #        Log output levels: TRACE, DEBUG(default), INFO, SUCCESS, WARNING, ERROR, CRITICAL
